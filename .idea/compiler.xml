@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-config-client3355" />
+        <module name="cloud-config-client3377" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-api-commons" />
@@ -23,5 +24,8 @@
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-client(dep)" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
