@@ -8,12 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Apabm/springcloud-config.git #github上git仓库的名字
+          uri: https://gitee.com/hang-yu-zhang/springcloud-config.git #github上git仓库的名字
           search-paths:
             #搜索目录
             - springcloud-config
           username: 792850734@qq.com
-          password: Zhy123@
+          password: Zhy123zhy
       label: main #读取分支
 
   #rabbitmq相关配置
